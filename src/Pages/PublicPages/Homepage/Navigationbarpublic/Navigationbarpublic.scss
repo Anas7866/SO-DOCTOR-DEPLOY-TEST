@@ -1,0 +1,40 @@
+@import "../../../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+.background_color_header_public
+{
+    background-color: $darkblue;
+    color: white;
+}
+
+.logo_width
+{
+    width: 65%;
+}
+
+.font_header
+{
+    font-size: 110%;
+    font-weight: 600;
+}
+
+.input_style
+{
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    box-shadow: none;
+    color: white;
+}
+
+.input_style:focus
+{
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    box-shadow: none;
+    color: white;
+}
+
+.input_style::placeholder
+{
+   color: white;
+}
