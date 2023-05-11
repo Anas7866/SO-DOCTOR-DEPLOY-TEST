@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navigationbarpublic.scss'
+import { Link } from 'react-router-dom'
 
 function Navigationbarpublic() {
   return (
@@ -35,7 +36,18 @@ function Navigationbarpublic() {
                 />
               </div>
               <div className="col-md-4 text-right">
-                <img className="img-fluid" src="../images/profile.png" />
+                <Link to="/login" style={{ textDecoration: 'none' }}>
+                  <span>
+                    <img
+                      className="img-fluid width_bell"
+                      src="../images/bell2.png"
+                    />
+                  </span>{' '}
+                  &nbsp;
+                  <span>
+                    <img className="img-fluid" src="../images/profile.png" />
+                  </span>
+                </Link>
               </div>
             </div>
           </div>
@@ -46,10 +58,12 @@ function Navigationbarpublic() {
       <div className="col-md-12 custome_main_setting_for_every_page navigation_for_mobile">
         <div className="row">
           <div className="col-md-6 col-6">
-            <img
-              className="img-fluid logo_width_for_mobile"
-              src="../images/logo.png"
-            />
+            <span>
+              <img
+                className="img-fluid logo_width_for_mobile"
+                src="../images/logo.png"
+              />
+            </span>
           </div>
           <div className="col-md-6 col-6 text-right">
             <button className="btn btn-light">

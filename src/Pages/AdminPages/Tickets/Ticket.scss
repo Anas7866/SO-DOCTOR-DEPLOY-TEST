@@ -1,0 +1,91 @@
+.background_white_color
+{
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+}
+
+.active_tab
+{
+    color: #16caea;
+    cursor: pointer;
+}
+
+.non_active_tab
+{
+    color: #ccd2d8;
+    cursor: pointer;
+}
+
+.height_fix_list
+{
+    height: 71vh;
+}
+
+.height_of_image1
+{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.background_accept
+{
+    background-color:#d0feefd9;
+    color: #1ce0a3;
+    border: 1px solid #d0feefd9;
+}
+.background_accept:hover
+{
+    background-color:#a9f8ded9;
+    color: #1ce0a3;
+    border: 1px solid #a9f8ded9;
+}
+.background_accept:focus
+{
+    background-color:#a9f8ded9;
+    color: #1ce0a3;
+    border: 1px solid #a9f8ded9;
+}
+
+.background_reject
+{
+    background-color: #ffd5d5;
+    color: #e35959;
+    border: 1px solid #ffd5d5;
+}
+.background_reject:hover
+{
+    background-color: #ffbfbf;
+    color: #e35959;
+    border: 1px solid #ffbfbf;
+}
+.background_reject:focus
+{
+    background-color: #ffbfbf;
+    color: #e35959;
+    border: 1px solid #ffbfbf;
+}
+
+.text_fot_left
+{
+    color: #222b2c;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text_fot_left1
+{
+    color: #a7a7a7;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.text_fot_left2
+{
+    color: #ec652a;
+    font-size: 16px;
+    font-weight: 800;
+}

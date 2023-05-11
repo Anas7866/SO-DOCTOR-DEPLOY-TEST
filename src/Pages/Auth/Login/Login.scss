@@ -1,197 +1,201 @@
 @import "../../../Assets/Scss/veriables.scss";
 @import "~react-pro-sidebar/dist/scss/styles.scss";
 
-
-.button_login
+.background_color_login_signup
 {
-    width: auto !important;
-    font-size: 90% !important;
-    border-radius: 1px !important;
-    padding: 2px 10px !important; 
-    background-color: #007BB6 !important;
-}
-
-.button_login:hover
-{
-    width: auto !important;
-    font-size: 90% !important;
-    border-radius: 1px !important;
-    padding: 2px 10px !important; 
-    background-color: #007BB6 !important;  
-}
-
-.login_height
-{
+    background-image: url(../../../Assets/Images/login.png);
+    background-size: cover;
+    background-position: 100% 100%;
     height: 100vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding-top: 5%;
-}
-
-.background_image_login
-{
-   background-image: url('../../../Assets/Images/banner.png');
-   height: 100vh;
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
 
 }
 
-.heading_login
+.border_bottom_active
 {
-    font-size: $font-32;
-    font-family: $font-family;
-    padding-top: 12%;
-    font-weight: $font-weight-400;
-    color: $white;
+    border-bottom: 4px solid #16caea;
+    color: #16caea;
 }
 
-.heading2_login
+.color_unactive
 {
-    font-size: $font-50;
-    font-family: $font-family;
-    font-weight: $font-weight-500;
-    line-height: 115%;
-    color: $white;
-    text-transform: uppercase;
+    color: #ccd2d8;
 }
 
-.heading3_login
+.button_style
 {
-    font-size: $font-28;
-    font-family: $font-family;
-    font-weight: $font-weight-400;
-    line-height: 115%;
-    color: $white;
+    background-color: white;
+    color: #16caea;
+    border: 1px solid white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+.button_style:hover
+{
+    background-color: white;
+    color: #16caea;
+    border: 1px solid white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+.button_style:focus
+{
+    background-color: white;
+    color: #16caea;
+    border: 1px solid white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    box-shadow: none;
 }
 
-.heading4_login
+.input_style_login
 {
-padding-top: 5%;
- color: $black;
- font-weight: 1000 !important;
- font-size: $font-26;
+    border: 1px solid white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
-
-.heading5_login
+.input_style_login:focus
 {
- font-weight: $font-weight-400 !important;
- font-size: $font-20;
- color: $gray;
-}
-
-
-.label_login
-{
-    font-size: $font-12;
-    color: $gray;
-    font-weight: $font-weight-400 !important;
-}
-
-.join_login
-{
-    font-size: $font-12;
-    color: $gray;
-    font-weight: $font-weight-400 !important;
-}
-
-.join2_login
-{
-    font-size: $font-12;
-    color: $blue;
-    font-weight: $font-weight-400 !important;
-}
-
-.button_linkedin
-{
-    font-size: $font-22
-}
-
-.mob_logo
-{
-    display: none;
-}
-
-.link_decoration
-{
-    text-decoration: none;
-    
-}
-
-.text_color_line
-{
-    color: $black;
-    // font-size: 10px;
+    border: 1px solid white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    outline: none;
+    box-shadow: none;
 
 }
-
-.button_style_login
+.input_style_login::placeholder
 {
-    background-color: #25224A !important;
-    border-top-left-radius: 1px !important;
+ font-size: 16px;  
+ color: #bebebe; 
+}
+
+.text_color_forget
+{
+    color: #16caea;
+    text-decoration: underline;
+}
+
+.button_style_padding
+{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #16caea;
+    border: 1px solid #16caea;
+    border-radius: 7px;
+    width: 100% !important;
+}
+
+
+.button_style_padding1
+{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #ccd2d8;
+    border: 1px solid #ccd2d8;
+    border-radius: 7px;
+    color: gray;
+}
+
+
+
+.icon_width
+{
+    width: 90%;
+}
+
+.custom-checkbox .custom-control-label::before
+{
+    border: 1px solid #16caea !important;
+}
+.name_Qa
+{
+    color: #16caea;
+}
+
+.subname_qa
+{
+    color: #6e6e6e;
+}
+
+.code_exp_text
+{
+    color: #ee4662;
+}
+
+.input_style button, input
+{
+  width: 43px !important;
+  height: 8vh;
+  background-color: #f4f6f7;
+  border: 1px solid #f4f6f7;
+  border-radius: 5px;
+  color: #b5b6ba;
+}
+.otp_field_label_text_color
+{
+    color: #74767e;
+}
+
+.background_color_otp
+{
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    box-shadow: 1px 1px 7px 7px rgba(211, 211, 211, 0.31);
+    border-radius: 5px;
+  }
+  
+  .btnv {
+    border: 2px solid  #16caea;
+    color: gray;
+    background-color: white;
+    padding: 18px 20px;
+    border-style: dashed;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 1px 1px 7px 7px lightgray;
+    border-radius: 5px;
+  }
+
+  .btnvv {
+    border: 2px solid  #16caea;
+    color: gray;
+    background-color: white;
+    border-style: dashed;
+    padding: 18px 32px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+
+  .button_description
+  {
     font-size: 80%;
-}
-
-.button_style_login:hover
-{
-    background-color: #25224A !important;
-    border-top-left-radius: 1px !important;
-    font-size: 80%;
-}
-
-.right_arrow_login
-{
-    color: #74AC72;
-}
-
-.img_width_login
-{
-    width: 100%;
-}
-
-.img_bulb_width
-{
-    width: 3.5%;
-}
-
-@media screen and (max-width: 980px) {
-    .login_height
-    {
-        height: auto;
-        overflow-y: auto;
-        overflow-x: hidden;
-    }
-
-   .background_image_login
-   {
-  display: none;
-   }
-   .heading4_login
-    {
     padding-top: 5%;
-    color: $blue;
-    font-weight: $font-weight-700 !important;
-    font-size: $font-26;
+    color: #16caea;
+  }
+
+@media screen and (max-width: 780px) {
+    .display_sidepannel_none
+    {
+        display: none;
     }
-    .mob_logo
-        {
-            padding-top: 30% !important;
-            display: block;
-        }
-
-
-
-
-   .mobile_padding_bottom
-   {
-    padding-bottom: 15% !important;
-   }
-   .heading4_login
-        {
-        padding-top: 40%;
-        color: $black;
-        font-weight: 1000 !important;
-        font-size: $font-26;
-        }
   }

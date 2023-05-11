@@ -20,7 +20,37 @@ const routes = [
     ispublic: true,
     exact: true,
   },
-
+  {
+    path: '/QA',
+    component: lazy(() => fakeDelay(delayTime)(import('../Pages/Auth/QA/QA'))),
+    ispublic: true,
+    exact: true,
+  },
+  {
+    path: '/uploaddoc',
+    component: lazy(() =>
+      fakeDelay(delayTime)(import('../Pages/Auth/Uploaddocs/Uploaddocs')),
+    ),
+    ispublic: true,
+    exact: true,
+  },
+  {
+    path: '/createpassword',
+    component: lazy(() =>
+      fakeDelay(delayTime)(import('../Pages/Auth/Password/Password')),
+    ),
+    ispublic: true,
+    exact: true,
+  },
+  {
+    path: '/mobile-verification',
+    component: lazy(() =>
+      fakeDelay(delayTime)(import('../Pages/Auth/Mobileotp/Mobileotp')),
+    ),
+    ispublic: true,
+    exact: true,
+  },
+  // seprerator
   {
     path: '/forget-password',
     component: lazy(() =>
@@ -95,6 +125,30 @@ const routes = [
       fakeDelay(delayTime)(
         import('../Pages/AdminPages/DashboardAdmin/DashboardAdmin'),
       ),
+    ),
+    ispublic: false,
+    exact: true,
+  },
+  {
+    path: '/Profile',
+    component: lazy(() =>
+      fakeDelay(delayTime)(import('../Pages/AdminPages/Profile/Profile')),
+    ),
+    ispublic: false,
+    exact: true,
+  },
+  {
+    path: '/Tickets',
+    component: lazy(() =>
+      fakeDelay(delayTime)(import('../Pages/AdminPages/Tickets/Tickets')),
+    ),
+    ispublic: false,
+    exact: true,
+  },
+  {
+    path: '/Myaccount',
+    component: lazy(() =>
+      fakeDelay(delayTime)(import('../Pages/AdminPages/MyAccount/MyAccount')),
     ),
     ispublic: false,
     exact: true,

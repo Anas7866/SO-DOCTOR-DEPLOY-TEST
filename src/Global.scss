@@ -11,3 +11,25 @@
     font-family: 'Roboto', sans-serif;
 
 }
+
+.display_none_onclick_sidenav
+{
+    display: none;
+}
+
+.side_nav_style
+{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    position: relative;
+    z-index: 11;
+}
+
+.background_color_image_sidebar
+{
+    overflow: hidden;
+    background-image: url(./Assets/Images/login.png);
+    background-size: cover;
+    background-position: 100% 100%;
+}
